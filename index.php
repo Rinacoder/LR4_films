@@ -57,7 +57,7 @@
 						<input type="password" class="password" id="password" placeholder="Пароль" required  minlength="6" >
 						<input type="password" class="password_cop" id="password_cop" placeholder="Подтвердите пароль" required>
 							<p><input type="checkbox" required  class="checkbox" value=""> Согласие на обработку персональных данных</p>
-						<input type="submit" class="registrationBatton" value="РEГИСТРАЦИЯ">
+							<input type="submit" class="registrationBatton" id="registrationBatton" value="РEГИСТРАЦИЯ">
 					</div>
 				</div>	
 		</div>
