@@ -1,6 +1,6 @@
 <header id="header" class="header">
-  <img src="img/menu3.svg" class="imenu" id="imenu">
-  		<a href="https://rinacoder.github.io/films/index.html" class="logo">
+<img src="img/menu3.svg" class="imenu">  	
+<a href="https://rinacoder.github.io/films/index.html" class="logo">
   			<img src="img/logo.svg" class="ilogo">
   			
   			<h1>

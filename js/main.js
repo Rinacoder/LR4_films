@@ -6,6 +6,12 @@ var btn_einr = document.getElementById('popup__entrance');
 var btn_rine = document.getElementById('popup__registration');
 var close_e = document.getElementById('popup__close_e');
 var close_r = document.getElementById('popup__close_r');
+var imenu = document.getElementById('imenu');
+var nav_w = document.getElementById('nav_w');
+
+imenu.onclick = function(){
+  naw_w.style.display = "block";
+}
 
 btn_e.onclick = function(){
   popup_e.style.display = "block";
