@@ -153,7 +153,7 @@ h3{
     "footer footer ";
   grid-template-rows: 126px 1fr 200px;
   grid-template-columns: 334px 1fr;
-  height: 120vh;
+  height: 100vh;
   margin: 0;
   column-gap: 40px;
 }
@@ -278,7 +278,7 @@ visibility: hidden;*/
 .all {
     grid-template-rows: 226px 1fr 290px;
     grid-template-columns: 0.3fr 1fr;
-    height: 130vh;
+    height: 100vh;
 }
 .button{
     font-size: 1.2vw;
