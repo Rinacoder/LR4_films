@@ -49,6 +49,13 @@ header a{
     height: 36px;
 
 }
+.greet_exit{
+    display: flex;
+}
+.popup_ex_b{
+    height: 35px;
+    margin-top: 15px;
+}
 .button{
     background-color: #B5063A;
     border-radius: 25px;

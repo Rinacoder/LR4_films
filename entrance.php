@@ -1,6 +1,7 @@
 <?php
 	require "conect.php";
 	require "function/login.php";
+	require "function/token.php";
 
 if(isset($_POST["entrance_submit"]))
 {
@@ -26,27 +27,23 @@ if(isset($_POST["entrance_submit"]))
 					border-radius: 5px;
 					border: 1px solid #ff0000;
 				}
-				.alert{
-						display: none;
-					}
+				
 			</style>
 	<?php
 	}
 	else{
-	?>
-			<style>
-				
-				.alert{
-					display: none;
-				}
-			</style>
-	<?php
+	$token = generateToken();
+	updateUserToken($connection, $user["id"], $token);
+	setcookie("token", $token);
 	}
 }
 
+
+
+
 ?>
 
-<form class="popup_e" id="popup_e" method="post" action="/index.php">
+<form class="popup_e" id="popup_e" method="post" >
 		<div class="popup__body">
 			<div class="popup__content">
 					<a  class="popup__close" id="popup__close_e">X</a>
@@ -54,7 +51,7 @@ if(isset($_POST["entrance_submit"]))
 					<div class="popup__title">Вход</div>
 					<div class="popup__basic">
 						<?php
-						if(isset($isNoteAuth))
+						if(isset($isNoteAuth) && $isNoteAuth)
 						{
 							?>
 							<div class="alert alert-danger" role="alter">

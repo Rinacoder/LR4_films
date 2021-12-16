@@ -16,7 +16,7 @@ if (isset($_POST["register_submit"]))
 	{
 		
 		storeUser($connection, $name, $email, $tel, $pass);
-		header("Location: /index.php");
+		
 	}
 	else{
 		echo <<<HTML
