@@ -14,5 +14,6 @@ reg_b.onclick = function(){
 }
 else{
    console.log('пароли не совпадают');   
+   popup_r.style.display = "block";
 }
 }

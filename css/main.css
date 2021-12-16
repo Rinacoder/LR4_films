@@ -153,7 +153,7 @@ h3{
     "footer footer ";
   grid-template-rows: 126px 1fr 200px;
   grid-template-columns: 334px 1fr;
-  height: 100vh;
+  height: 110vh;
   margin: 0;
   column-gap: 40px;
 }
@@ -278,7 +278,7 @@ visibility: hidden;*/
 .all {
     grid-template-rows: 226px 1fr 290px;
     grid-template-columns: 0.3fr 1fr;
-    height: 100vh;
+    height: 120vh;
 }
 .button{
     font-size: 1.2vw;
@@ -402,6 +402,21 @@ h2{
 }
 .imenu{
     width: 20px
+}
+.popup__content{
+    max-width: 300px;    
+}
+.popup__registration, .popup__entrance{
+    font-size: 15px;
+    left: 15px; 
+}
+.popup__close{
+    font-size: 17px;
+       
+}
+.popup__title {
+    font-size: 32px;
+    padding: 35px 0 20px;
 }
 
 }

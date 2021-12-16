@@ -13,7 +13,8 @@
 <body>
 	<div class="all">
 	<?php
-	require "modal_windows.php";
+	require "registr.php";
+	require "entrance.php";
 	require "header.php";
 ?>
   
@@ -51,7 +52,6 @@
 ?>
 
 <script src="js/main.js"></script>
-<script src="js/pass.js"></script>
   </div>
   
 </body>
